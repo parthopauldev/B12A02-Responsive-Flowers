@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:"Noto Serif", serif;
+}
+:root{
+    /* text size */
+--text-size-65px:4.06rem;
+--text-size-50px:3.1rem;
+--text-size-22px:1.375rem;
+--text-size-40px:2.5rem;
+--text-size-20px:1.25rem;
+/* color */
+--text-color-252432:rgba(37, 36, 50, 1);
+--text-color-black:#000000;
+--text-color-white:#ffffff;
+--text-color-8987A1:rgba(137, 135, 161, 1);
+--text-color-E95A0B:rgba(233, 90, 8, 1);
+--text-color-000000:rgba(0, 0, 0, 0.5);
+/* bg color */
+
+--bg-color-E95A0B:rgba(233, 90, 8, 1);
+
+}
+/* shared style */
+.section-title{
+    font-size: var(--text-size-50px);
+    font-weight: bold;
+    color: var(--text-color-black);
+
+}
+.section-title span{
+    color-scheme: var(--text-color-E95A0B);
+}
+.section-description{
+    font-family: "Inter", sans-serif ;
+    font-size: var(--text-size-22px);
+    color-scheme: var(--text-color-000000);
+
+}
+.main-container{
+    max-width: 1440px;
+    margin: auto;
+}
+/* header */
+header,main,footer{
+    width: 79%;
+    margin: auto;
+}
+
+/* nav start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+  
+}
+nav .logo-container{
+    width: 135px;
+height: 82px;}
+nav ul{
+    display: flex;
+    gap: 48px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    line-height: 24px;
+    font-family: "Inter", sans-serif ;
+}
+nav ul li:last-child a{
+    color: var(--text-color-black);
+
+}
+nav ul li:first-child a{
+    color: var(--text-color-252432);
+    
+    font-weight: bold;
+}
+#shopping-icon{
+   margin-right: 10px;
+}
+/* nav end */

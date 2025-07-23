@@ -1,0 +1,32 @@
+
+
+
+/* mobile device */
+
+@media screen and (max-width: 393px) {
+    .main-container {
+        max-width: 100vw;
+       
+    }
+ header, main, footer {
+    width: 100%;
+    padding:0 16px;
+
+ }
+
+ /* nav */
+ nav{
+    margin-top: 13px;
+    align-items: center;
+ }
+nav .logo-container{
+     width: 63px;
+    height: 38px;
+ }
+ nav ul li{
+    display: none;
+ }
+ nav ul li:last-child{
+    display: block;
+ }
+}
