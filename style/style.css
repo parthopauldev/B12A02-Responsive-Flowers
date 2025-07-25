@@ -282,15 +282,19 @@ color: var(--text-color-white);
 
 .deals-card:nth-child(1){
 
-background-image: url(../assets/deal-ana.png);
 
+ background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/deal-ana.png');
 }
 .deals-card:nth-child(3){
-     background-image: url(../assets/deal-bloom.png);
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/deal-bloom.png');
 
 }
 .deals-card:nth-child(2){
-background-image: url(../assets/deal-zabo.png);
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/deal-zabo.png');
+
 grid-column: span 2;
 grid-row: span 2;
 }
@@ -304,3 +308,46 @@ margin-bottom: 120px;
    
 }
 /* .latest deals end*/
+/* form section start */
+.form-section{
+    width: 100%;
+    background-image: url(../assets/news-letter-bg.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 199px 0;
+  margin-bottom: 50px;
+}
+.form-section form{
+    max-width: 810px;
+    padding: 0 20px;
+    
+    margin: auto;
+}
+.form-section .section-title{
+    color: var(--text-color-white);
+    text-align: center;
+    margin-bottom: 23px;
+
+}
+.form-section input[type="text"]{
+    width: 75%;
+    padding: 16px 0 16px 20px;
+    background-color:var(--text-color-white);
+    border: none;
+}
+.input-parent{
+    display: flex;
+}
+.form-section input[type="submit"]{
+    color: var(--text-color-white);
+    font-weight: 600;
+    width: 25%;
+    padding:16px 53px;
+    background-color:var(--bg-color-E95A0B);
+    border: none;
+}
+
+
+/* form section end */
