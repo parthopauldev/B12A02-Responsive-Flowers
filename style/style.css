@@ -216,7 +216,16 @@ nav .logo-container{
     padding-left: 23px;
     
 }
-
+.plants-lover-section .img-parent{
+    position: relative;
+}
+.plants-lover-section .trusted-badge{
+position: absolute;
+width: 286px;
+height: 286px;
+right: -94px;
+top: -136px;
+}
 
 /* plants lover end  */
 

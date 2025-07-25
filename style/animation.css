@@ -1,0 +1,14 @@
+.trusted-badge{
+animation: rotate linear  forwards;
+animation-timeline: view(30% 0px);
+}
+@keyframes rotate {
+    from{
+        transform: rotate(360deg);
+    }
+}
+body button:hover{
+    background-color: transparent;
+    border: 1px solid rgba(233, 90, 8, 1);
+    color: rgba(233, 90, 8, 1);
+}
