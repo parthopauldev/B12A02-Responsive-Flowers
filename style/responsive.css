@@ -268,4 +268,31 @@ font-size:var(--text-size-20px) ;
     padding:0px 10px;
    
 }
+/* footer start */
+footer .content-parent{
+   padding: 0 15px;
+    grid-template-columns:1fr;
+    margin-bottom: 18px;
+   row-gap: 20px;
+}
+.colume-1 img{
+width: 180px;
+height: 100px;
+margin-bottom: 16px;
+}
+.colume-1 p{
+    font-size:1rem;
+    
+    
+}
+
+.colume-4{
+display: flex;
+justify-content: left;
+}
+.colume-4 img{
+    margin-left: 0;
+    margin-right: 24px;
+}
+/* footer end */
 }
