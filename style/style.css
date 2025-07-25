@@ -343,7 +343,7 @@ margin-bottom: 120px;
 .form-section input[type="submit"]{
     color: var(--text-color-white);
     font-weight: 600;
-    width: 25%;
+  
     padding:16px 53px;
     background-color:var(--bg-color-E95A0B);
     border: none;

@@ -233,7 +233,7 @@ font-weight: 600;
     grid-template-rows: repeat(2,200px);
     row-gap: 7px;
    
-margin-bottom: 120px;
+margin-bottom: 40px;
    
 }
 .deals-card:nth-child(2){
@@ -253,5 +253,19 @@ border-bottom: 2px solid white;
 }
 .deals-card:nth-child(2) h3{
     margin-bottom: 19px;
+
+}
+.form-section{
+    padding: 110px 0 65px;
+}
+.form-section .section-title{
+font-size:var(--text-size-20px) ;
+}
+.form-section input[type="submit"]{
+    font-size: var(--text-size-20px);
+  
+  
+    padding:0px 10px;
+   
 }
 }
